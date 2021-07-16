@@ -81,8 +81,9 @@ document.getElementById("myCanvas").style.borderColor="red";
 			ball_y = ball_y - block_image_height;
 			console.log("blockk image height = " + block_image_height);
 			console.log("When Down arrow is pressed, x=" + ball_x +", Y = "  +ball_y);
+			canvas.remove(ball_obj);
 		new_image();
-		load_img();
+	
 		}
 	}
 
@@ -92,8 +93,10 @@ document.getElementById("myCanvas").style.borderColor="red";
 			ball_y = ball_y + block_image_height;
 			console.log("blockk image height = " + block_image_height);
 			console.log("When Down arrow is pressed, x=" + ball_x +", Y = "  +ball_y);
+			canvas.remove(ball_obj);
+			
 		new_image();
-		load_img();
+	
 		}
 	}
 
@@ -104,8 +107,9 @@ document.getElementById("myCanvas").style.borderColor="red";
 			ball_x = ball_x - block_image_height;
 			console.log("blockk image height = " + block_image_height);
 			console.log("When Left arrow is pressed, x=" + ball_x +", Y = "  +ball_y);
+			canvas.remove(ball_obj);
 		new_image();
-		load_img();
+		
 		}
 	}
 
@@ -116,8 +120,9 @@ document.getElementById("myCanvas").style.borderColor="red";
 			ball_x = ball_x + block_image_height;
 			console.log("blockk image height = " + block_image_height);
 			console.log("When Left arrow is pressed, x=" + ball_x +", Y = "  +ball_y);
+			canvas.remove(ball_obj);
 		new_image();
-		load_img();
+		
 		}
 	}
 	
